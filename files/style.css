@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Kurale&display=swap);
+
+.nav-link {
+    color: rgb(191, 190, 202);
+}
+.navbar .nav-link.active {
+    color: white;
+}
+.navbar-brand {
+    color: rgb(255, 255, 255);
+}
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+background-color: white;
+}
+body {
+font-family: kurale,serif;
+background: #ffffff url(https://img.freepik.com/free-photo/tropical-green-leaves-background_53876-88891.jpg?semt=ais_items_boosted&w=740) center center/cover no-repeat;
+
+}
+    
+.sidebar {
+    color: #ffffff;
+    background: linear-gradient(270deg, #0f4167 10%, #99a733 100%)  
+}
+.card {
+    background: linear-gradient(180deg, #44b0db 10%, #f0f1e6 100%)  
+}
+
+h5 {
+    color: rgb(31, 45, 169);
+}
+.card-text {
+    font-size: 23px;
+}
+
+.textsl, .footer-text {
+    color: white;
+    margin: auto auto;
+    padding-right: 130px;
+}
+.carousel-item {
+ background: linear-gradient(270deg, #99a733 5%, #0f4167 80%)  
+}
+
+.popa {
+    margin-top: 123px;
+}
+
+footer {
+    background-color: rgb(48, 110, 79);
+   margin-top: 20px;
+}
+footer p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.fik {
+    color: white
+} 
+.helpp {
+    
+   width: 200px;
+    background-color: #000000;
+}
+
+.call-animation {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.govno {
+    margin-top: 230px;
+}
+
+.helps {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.videos video {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.videos {
+     width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(270deg, #99a733 5%, #0f4167 80%)  
+}
+
+.shop {
+    margin-top: 10px;
+}
+
+.daad {
+    margin-bottom: 60px;
+}
